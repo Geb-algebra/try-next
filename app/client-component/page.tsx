@@ -40,7 +40,7 @@ export default function Home() {
           </li>
         ))}
       </ul>
-      <form onSubmit={handleSubmit} action="/api/employees">
+      <form onSubmit={handleSubmit}>
         <input name="name" placeholder="Name" />
         <input name="position" placeholder="Position" />
         <input name="salary" placeholder="Salary" />
